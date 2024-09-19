@@ -5,7 +5,7 @@ from modules.keypoint_detector import KPDetector
 from modules.generator_optim import OcclusionAwareGenerator
 from sync_batchnorm import DataParallelWithCallback
 import numpy as np
-import face_alignment
+import face alignment
 
 
 def normalize_kp(kp_source, kp_driving, kp_driving_initial, adapt_movement_scale=False,
